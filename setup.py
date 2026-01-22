@@ -7,11 +7,26 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="dag-cost-tracker",
-    version="0.1.1",
+    version="0.1.2",
     description="A DAG cost tracking plugin for Apache Airflow",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Azmat Siddique",
+    license="MIT",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Environment :: Plugins",
+        "Intended Audience :: Developers",
+        "Intended Audience :: System Administrators",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Topic :: System :: Monitoring",
+    ],
+    python_requires=">=3.8",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
