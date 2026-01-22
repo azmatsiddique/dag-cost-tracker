@@ -74,3 +74,4 @@ venv.bak/
 .DS_Store
 .idea/
 .vscode/
+prd.txt
