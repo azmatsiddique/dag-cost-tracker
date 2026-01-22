@@ -7,10 +7,15 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="dag-cost-tracker",
-    version="0.1.2",
+    version="0.1.3",
     description="A DAG cost tracking plugin for Apache Airflow",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    url="https://github.com/azmatsiddique/dag-cost-tracker",
+    project_urls={
+        "Bug Tracker": "https://github.com/azmatsiddique/dag-cost-tracker/issues",
+        "Source Code": "https://github.com/azmatsiddique/dag-cost-tracker",
+    },
     author="Azmat Siddique",
     license="MIT",
     classifiers=[
