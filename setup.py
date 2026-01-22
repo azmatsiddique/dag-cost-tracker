@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="dag-cost-tracker",
-    version="0.1.3",
+    version="0.1.2",
     description="A DAG cost tracking plugin for Apache Airflow",
     long_description=long_description,
     long_description_content_type="text/markdown",
